@@ -9,7 +9,7 @@ int main(){
 	cin >> b;
 	char c[99];
 	cin >> c;
-	if(strcmp(c, "plus") == 0 || (c, "+") == 0){
+	if(strcmp(c, "plus") == 0 || (c, "+") == 0) || (c, "sum") == 0)){
 		int f = a+b;
 		cout << f << endl;
 	}
